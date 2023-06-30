@@ -166,14 +166,8 @@ footer {
     background-image: url(/bg/Rectangle\ 104.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-/* backgrounds */
-
-footer {
-    background-image: url(/bg/Rectangle\ 104.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    padding: 30px 10%;
 }
 
 .main-first {
@@ -251,4 +245,16 @@ footer {
     background-color: rgba(255, 255, 255, 0.70);
     width: 320px;
     height: 240px;
+}
+
+
+
+.contacs p {
+    color: #FFF;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
