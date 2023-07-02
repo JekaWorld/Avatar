@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-image: url(/bg/Rectangle\ 104.jpg);
+    background-image: url(/img/bg/headerandfooter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -31,10 +31,6 @@ header {
 
 .nav-links li a:hover {
     transition: all 0.3s ease 0s;
-}
-
-.header-button {
-    width: 141px;
 }
 
 .main-first p {
@@ -73,7 +69,7 @@ header {
     background-color: transparent;
     cursor: pointer;
 
-    background-image: url(/css/svg/Group\ 14.svg);
+    background-image: url(/css/svg/button.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #94CFFF;
@@ -83,7 +79,7 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: auto;
+    padding: 5px 50px 0px 0px;
 }
 
 .wrapper {
@@ -163,7 +159,7 @@ input:checked+.slider:before {
 }
 
 footer {
-    background-image: url(/bg/Rectangle\ 104.jpg);
+    background-image: url(/img/bg/headerandfooter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -171,7 +167,7 @@ footer {
 }
 
 .main-first {
-    background-image: url(/bg/Group\ 48\ 1.jpg);
+    background-image: url(/img/bg/firstbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -180,24 +176,30 @@ footer {
 }
 
 .trailer {
-    background-image: url(/bg/Rectangle\ 10.png);
+    background-image: url(/img/bg/secondbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .avatar-language {
-    background-image: url(/bg/Rectangle\ 20.jpg);
+    background-image: url(/img/bg/thirdbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1440px;
+    width: 100%;
     height: 704px;
     flex-shrink: 0;
 }
 
 .words {
+    width: 100%;
+    height: auto;
     display: flex;
-    gap: 36px;
     flex-wrap: wrap;
+    flex-direction: row;
+    gap: 36px;
 }
 
 .words p {
@@ -209,6 +211,7 @@ footer {
     font-weight: 400;
     line-height: 24px;
 }
+
 
 /* words */
 .words_1 {
