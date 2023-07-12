@@ -12,6 +12,10 @@ header {
     padding: 30px 10%;
 }
 
+.header .overlay {
+    background: rgba(43, 74, 97, 0.87);
+}
+
 .logo {
     cursor: pointer;
 }
