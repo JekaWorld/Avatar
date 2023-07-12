@@ -1,0 +1,33 @@
+.avatar-language {
+    background-image: url(/img/bg/thirdbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 704px;
+    flex-shrink: 0;
+}
+
+.words {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.words p {
+    color: #141414;
+    text-align: center;
+    font-size: 24px;
+    font-family: HeadlandOne;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.words_translate {
+    background-color: rgba(255, 255, 255, 0.70);
+    width: 320px;
+    height: 240px;
+}

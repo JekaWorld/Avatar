@@ -1,0 +1,46 @@
+.join_box-left p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.join li {
+    list-style: none;
+}
+
+.join_box-left .descr {
+    display: flex;
+    width: 298px;
+    height: 96px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.join .second-text {
+    display: flex;
+    width: 376px;
+    height: 123px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.join .rectangle {
+    width: 152px;
+    height: 40px;
+}
+
+.join {
+    background-image: url(/img/bg/firstbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 740px;
+
+}
+
+.join_box {
+    padding: 180px 0;
+}

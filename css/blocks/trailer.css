@@ -1,0 +1,11 @@
+.trailer {
+    background-image: url(/img/bg/secondbg.png);
+    background-size: cover;
+    height: 741px;
+}
+
+.trailer_btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

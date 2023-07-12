@@ -1,0 +1,21 @@
+.footer .overlay {
+    background: rgba(43, 74, 97, 0.87);
+}
+
+footer {
+    background-image: url(/img/bg/headerandfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 30px 10%;
+}
+
+.contacs p {
+    color: #FFF;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

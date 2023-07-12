@@ -1,0 +1,130 @@
+header {
+    background-image: url(/img/bg/headerandfooter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    border-bottom: 3px solid #FFF;
+}
+
+.header_menu li {
+    display: inline-block;
+}
+
+.header_menu a {
+    display: inline-block;
+}
+
+.header_block {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .overlay {
+    padding: 40px 0;
+    background: rgba(43, 74, 97, 0.87);
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 35px 0px;
+    border: 2px solid #26C6EA;
+    background-image: url(/css/svg/button.svg);
+    background: #0B0E66;
+    color: #26C6EA;
+    font-size: 20px;
+    padding: 7px 38px;
+    font-family: HeadlandOne;
+    cursor: pointer;
+    box-sizingl: border-box;
+    margin-left: 49px;
+}
+
+.wrapper {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-family: Hammersmith One;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.switch-area {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    border-radius: 40px;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.switch-area input {
+    opacity: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 11px;
+    top: 3px;
+    left: 4px;
+    background-color: white;
+    -webkit-transition: .5s;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(12px);
+    -ms-transform: translateX(12px);
+    transform: translateX(12px);
+}
+
+.slider.circle {
+    border-radius: 36px;
+}
+
+.slider.circle:before {
+    border-radius: 50%;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-right: 38px;
+}
+
+.nav-item:hover {
+    color: #94CFFF;
+    font-weight: 600;
+    transition: color 0.3s linear;
+}
