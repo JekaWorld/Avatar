@@ -1,5 +1,5 @@
 header {
-    background-image: url(/img/bg/headerandfooter.jpg);
+    background-image: url(../../img/bg/headerandfooter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 150px;
@@ -39,7 +39,7 @@ header {
 .btn {
     border-radius: 35px 0px;
     border: 2px solid #26C6EA;
-    background-image: url(/css/svg/button.svg);
+    background-image: url(../../img/svg/button.svg);
     background: #0B0E66;
     color: #26C6EA;
     font-size: 20px;

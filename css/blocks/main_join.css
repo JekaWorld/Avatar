@@ -33,7 +33,7 @@
 }
 
 .join {
-    background-image: url(/img/bg/firstbg.jpg);
+    background-image: url(../../img/bg/firstbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

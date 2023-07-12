@@ -1,9 +1,10 @@
 .footer .overlay {
+    padding: 40px 0;
     background: rgba(43, 74, 97, 0.87);
 }
 
 footer {
-    background-image: url(/img/bg/headerandfooter.jpg);
+    background-image: url(../../img/bg/headerandfooter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
