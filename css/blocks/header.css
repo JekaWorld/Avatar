@@ -39,15 +39,13 @@ header {
 .btn {
     border-radius: 35px 0px;
     border: 2px solid #26C6EA;
-    background-image: url(../../img/svg/button.svg);
     background: #0B0E66;
     color: #26C6EA;
     font-size: 20px;
     padding: 7px 38px;
     font-family: HeadlandOne;
     cursor: pointer;
-    box-sizingl: border-box;
-    margin-left: 49px;
+    box-sizing: border-box;
 }
 
 .wrapper {

@@ -5,7 +5,12 @@
 }
 
 .trailer_btn {
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    border-radius: 35px 0px;
+    border: 2px solid #26C6EA;
+    background: #0B0E66;
+    color: #26C6EA;
+    padding: 25px 17px;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 24px;
 }
