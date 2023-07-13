@@ -1,3 +1,7 @@
+.phrases {
+    padding: 75px 0 10px;
+}
+
 .phrases h2 {
     color: #0A3853;
     text-align: center;
@@ -6,6 +10,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0;
 }
 
 .phrases h4 {
@@ -18,5 +23,6 @@
 }
 
 .hawk {
-    margin: 0 730px;
+    margin: 0 auto;
+    display: block;
 }

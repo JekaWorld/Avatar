@@ -1,7 +1,7 @@
 .trailer {
     background-image: url(../../img/bg/secondbg.png);
     background-size: cover;
-    height: 741px;
+    padding: 330px 0;
 }
 
 .trailer_btn {
@@ -13,4 +13,7 @@
     text-align: center;
     font-family: HeadlandOne;
     font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
 }
